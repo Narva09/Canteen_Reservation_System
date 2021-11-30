@@ -1,0 +1,127 @@
+/* 
+    Author: Students;
+    Theme: STUDENT CANTEEN ONLINE RESERVATION SYSTEM;
+    version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;  
+
+}
+.btn-primary{
+    background-color: #fd79a8;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #6c5ce7;
+}
+
+.btn-secondary{
+    background-color: #4930d6;
+    padding: 1%;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #636e72;
+}
+
+.btn-danger{
+    background-color: #636e72;
+    padding: 1%;
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #0984e3;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+/*css for Menu */
+.menu{
+    border-bottom: 1px solid #7f8fa6;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+}
+.menu ul li a:hover{
+color: blue;    
+}
+/*css for main-content*/
+.main-content{
+    background-color: #7f8fa6;
+    padding: 3% 0;
+}
+.col-4{
+width: 18%;
+background-color: white;  
+margin: 1%; 
+padding: 2%; 
+float: left;
+}
+/*css for Footer*/
+.footer{
+    background-color: #273c75 ;
+    color: white;
+}
+
+/* CSS for Login */
+.login{
+    border: 1px solid blue;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
